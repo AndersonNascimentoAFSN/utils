@@ -1,0 +1,42 @@
+{
+  "name": "@andersonnascimentoafsn/utils",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "repository": {
+    "url": "https://github.com/AndersonNascimentoAFSN/utils"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json}": [
+      "eslint --fix --max-warnings=0"
+    ],
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --minify --dts --format cjs,esm --out-dir dist",
+    "prepare": "husky install"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "Anderson Nascimento",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@commitlint/cli": "^19.3.0",
+    "@commitlint/config-conventional": "^19.2.2",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "prettier": "^3.2.5",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
