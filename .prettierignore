@@ -1,4 +1,7 @@
-node_modules
+node_modules/
 public
 build
 dist
+.husky
+tsup.config.ts
+commitlint.config.js
