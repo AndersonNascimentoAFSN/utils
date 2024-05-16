@@ -21,6 +21,9 @@
   },
   "scripts": {
     "build": "tsup src/index.ts --minify --dts --format cjs,esm --out-dir dist",
+    "test:ci": "vitest --run",
+    "test": "vitest",
+    "test:cov": "vitest run --coverage",
     "prepare": "husky install"
   },
   "keywords": [
