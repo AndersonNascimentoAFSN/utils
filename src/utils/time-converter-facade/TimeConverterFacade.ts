@@ -1,4 +1,4 @@
-import { TimeConverter } from "../time-converter/timeConverter";
+import { TimeConverter } from "../time-converter/TimeConverter";
 
 export class TimeConverterProcessorFacade {
   private timeConverter: TimeConverter;

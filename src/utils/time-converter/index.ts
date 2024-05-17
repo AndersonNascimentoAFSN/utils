@@ -1,1 +1,1 @@
-export * from "./timeConverter";
+export * from "./TimeConverter";

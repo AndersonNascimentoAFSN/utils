@@ -1,1 +1,1 @@
-export * from "./timeConverterFacade";
+export * from "./TimeConverterFacade";

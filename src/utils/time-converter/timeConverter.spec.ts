@@ -1,7 +1,7 @@
 import { describe, beforeEach, afterEach, it, expect, vi } from "vitest";
 
 import { decimalTimeMockList } from "../../../mocks/time-converter-mock/decimalTimeMockList";
-import { TimeConverter } from "./timeConverter";
+import { TimeConverter } from "./TimeConverter";
 
 describe("Class TimeConverter", () => {
   beforeEach(() => {
