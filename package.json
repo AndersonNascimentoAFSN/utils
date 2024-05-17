@@ -1,6 +1,6 @@
 {
   "name": "@andersonnascimentoafsn/utils",
-  "version": "1.1.0",
+  "version": "1.0.1",
   "main": "./dist/index.js",
   "type": "module",
   "module": "./dist/index.mjs",
@@ -8,6 +8,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "homepage": "https://www.npmjs.com/package/@andersonnascimentoafsn/utils",
   "repository": {
     "url": "https://github.com/AndersonNascimentoAFSN/utils"
   },
