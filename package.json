@@ -8,6 +8,7 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "homepage": "https://www.npmjs.com/package/@andersonnascimentoafsn/utils",
   "repository": {
     "url": "https://github.com/AndersonNascimentoAFSN/utils"
   },
