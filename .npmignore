@@ -12,3 +12,5 @@ commitlint.config.js
 .prettierignore
 .prettierrc
 .nvmrc
+eslint.config.js
+mocks/
